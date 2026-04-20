@@ -20,4 +20,4 @@ The software features a modular design to separate the simulation logic from dat
 ## How to Run
 
 1. Execute the numbered scripts (2-6) to generate the necessary data files.
-2. Open `Gráficas.ipynb` to visualize the phase transitions and thermal observables.
+2. Open `graphs` to visualize the phase transitions and thermal observables.
