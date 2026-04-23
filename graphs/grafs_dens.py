@@ -4,19 +4,19 @@ from matplotlib.gridspec import GridSpec
 
 
 #Leo los datos de los ficheros de texto
-file_in1 = 'C:/Users/Usuario/Desktop/UGR/COMPU/Kawasaki/resultados/dens_N32_T05.txt'
+file_in1 = 'dens_N32_T05.txt'
 datos1 = np.loadtxt(file_in1)
-file_in2 = 'C:/Users/Usuario/Desktop/UGR/COMPU/Kawasaki/resultados/dens_N64_T05.txt'
+file_in2 = 'dens_N64_T05.txt'
 datos2 = np.loadtxt(file_in2)
-file_in3 = 'C:/Users/Usuario/Desktop/UGR/COMPU/Kawasaki/resultados/dens_N128_T05.txt'
+file_in3 = 'dens_N128_T05.txt'
 datos3 = np.loadtxt(file_in3)
-file_in4 = 'C:/Users/Usuario/Desktop/UGR/COMPU/Kawasaki/resultados/dens_N64_T1.txt'
+file_in4 = 'dens_N64_T1.txt'
 datos4 = np.loadtxt(file_in4)
-file_in5 = 'C:/Users/Usuario/Desktop/UGR/COMPU/Kawasaki/resultados/dens_N64_T2.txt'
+file_in5 = 'dens_N64_T2.txt'
 datos5 = np.loadtxt(file_in5)
-file_in6 = 'C:/Users/Usuario/Desktop/UGR/COMPU/Kawasaki/resultados/dens_N64_T3.txt'
+file_in6 = 'dens_N64_T3.txt'
 datos6 = np.loadtxt(file_in6)
-file_in7 = 'C:/Users/Usuario/Desktop/UGR/COMPU/Kawasaki/resultados/dens_N64_T4.txt'
+file_in7 = 'dens_N64_T4.txt'
 datos7 = np.loadtxt(file_in7)
 
 
