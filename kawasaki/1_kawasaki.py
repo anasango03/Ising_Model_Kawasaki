@@ -115,9 +115,4 @@ for k in range(l):
 
 
 #Guardo la matriz de la configuración final 
-
-#Con Joel
-np.savetxt('/home/cphys-ana.sanchezgonzalez/COMPU2024/matriz_N64_T2_noNul.txt', S)
-
-#Con el PC
-#np.savetxt('C:/Users/Usuario/Desktop/UGR/COMPU/Kawasaki/resultados/matriz_N16_T05.txt', S)
+np.savetxt('matriz_N16_T05.txt', S)
