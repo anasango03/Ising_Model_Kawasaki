@@ -3,13 +3,13 @@ import numpy as np
 
 
 #Leo los datos del fichero de texto
-file_in1 = 'C:/Users/Usuario/Desktop/UGR/COMPU/Kawasaki/resultados/cN_N32.txt'
+file_in1 = 'cN_N32.txt'
 datos1 = np.loadtxt(file_in1)
 
-file_in2 = 'C:/Users/Usuario/Desktop/UGR/COMPU/Kawasaki/resultados/cN_N64.txt'
+file_in2 = 'cN_N64.txt'
 datos2 = np.loadtxt(file_in2)
 
-file_in3 = 'C:/Users/Usuario/Desktop/UGR/COMPU/Kawasaki/resultados/cN_N128.txt'
+file_in3 = 'cN_N128.txt'
 datos3 = np.loadtxt(file_in3)
 
 
