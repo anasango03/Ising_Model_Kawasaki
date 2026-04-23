@@ -157,8 +157,4 @@ datos[:,0] = T
 datos[:,1] = suscep_sup
 datos[:,2] = suscep_inf
 
-#Con Joel
-np.savetxt('/home/cphys-ana.sanchezgonzalez/COMPU2024/suscep_N32_noNul.txt', datos)
-
-#Con el PC
-#np.savetxt('C:/Users/Usuario/Desktop/UGR/COMPU/Kawasaki/resultados/suscep_N16.txt', datos)
+np.savetxt('suscep_N16.txt', datos)
