@@ -137,10 +137,6 @@ datos = np.zeros((10,2))
 datos[:,0] = T
 datos[:,1] = energia_media
 
-#Con Joel
-np.savetxt('/home/cphys-ana.sanchezgonzalez/COMPU2024/ener_N32_noNul.txt', datos)
-
-#Con el PC
-#np.savetxt('C:/Users/Usuario/Desktop/UGR/COMPU/Kawasaki/resultados/ener_N16.txt', datos)
+np.savetxt('ener_N16.txt', datos)
 
 
