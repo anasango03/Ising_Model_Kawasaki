@@ -149,9 +149,5 @@ datos[:,0] = T
 datos[:,1] = mag_media_sup
 datos[:,2] = mag_media_inf
 
-#Con Joel
-np.savetxt('/home/cphys-ana.sanchezgonzalez/COMPU2024/mag_N32_noNul.txt', datos)
-
-#Con el PC
-#np.savetxt('C:/Users/Usuario/Desktop/UGR/COMPU/Kawasaki/resultados/mag_N16.txt', datos)
+np.savetxt('mag_N16.txt', datos)
 
