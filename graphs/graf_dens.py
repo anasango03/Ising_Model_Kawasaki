@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 
 #Leo los datos del fichero de texto
-file_in = 'C:/Users/Usuario/Desktop/UGR/COMPU/Kawasaki/resultados/dens_N64_T4.txt'
+file_in = 'dens_N64_T4.txt'
 datos = np.loadtxt(file_in)
 
 
