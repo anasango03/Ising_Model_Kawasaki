@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 
 #Leo los datos del fichero de texto
-file_in = 'C:/Users/Usuario/Desktop/UGR/COMPU/Kawasaki/resultados/ener_N64_noNul.txt'
+file_in = 'ener_N64_noNul.txt'
 datos = np.loadtxt(file_in)
 
 
