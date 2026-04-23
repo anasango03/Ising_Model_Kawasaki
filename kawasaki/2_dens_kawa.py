@@ -125,19 +125,14 @@ dens = dens/(l/100)
     
     
 #Guardo la matriz de la configuración final 
-#Con Joel
-np.savetxt('/home/cphys-ana.sanchezgonzalez/COMPU2024/matrizDens_N64_T05_noNul.txt', S)
-#Con el PC
-#np.savetxt('C:/Users/Usuario/Desktop/UGR/COMPU/Kawasaki/resultados/matriz_N16_T05.txt', S)
+np.savetxt('matriz_N16_T05.txt', S)
 
 
 #Guardo los datos de la densidad en un txt
 datos = np.zeros((N,2))
 datos[:,0] = np.arange(N)
 datos[:,1] = dens
-#Con Joel
-np.savetxt('/home/cphys-ana.sanchezgonzalez/COMPU2024/dens_N64_T05_noNul.txt', datos)
-#Con el PC
-#np.savetxt('C:/Users/Usuario/Desktop/UGR/COMPU/Kawasaki/resultados/dens_N16_T05.txt', datos)
+
+np.savetxt('dens_N16_T05.txt', datos)
 
 
